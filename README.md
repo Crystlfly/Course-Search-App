@@ -12,16 +12,17 @@ On startup, the app:
 GET /api/courses/search Query Parameters:
 
 Parameter	Type	Description
-  keyword	String	Search keyword
-  userAge	int	Minimum age filter
-  category	String	Course category
-  type	String	ONE_TIME, COURSE, CLUB
-  minPrice	double	Minimum price
-  maxPrice	double	Maximum price
-  startDate	date	ISO-8601 start date filter
-  sort	String	upcoming | priceAsc | priceDesc
-  page	int	Page number (default 1)
-  size	int	Results per page (default 10)
+•	Parameter	Type	Description
+•	keyword	String	Search keyword
+•	userAge	int	Minimum age filter
+•	category	String	Course category
+•	type	String	ONE_TIME, COURSE, CLUB
+•	minPrice	double	Minimum price
+•	maxPrice	double	Maximum price
+•	startDate	date	ISO-8601 start date filter
+•	sort	String	upcoming | priceAsc | priceDesc
+•	page	int	Page number (default 1)
+•	size	int	Results per page (default 10)
 
 Example Request: 
 GET "http://localhost:8080/api/courses/search?category=technology&userAge=11" 
