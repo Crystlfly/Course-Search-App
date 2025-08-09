@@ -14,9 +14,9 @@ Setup Instructions
   ./mvnw spring-boot:run
    
   On startup, the app:
-    Connects to localhost:9200
-    Reads sample-courses.json
-    Bulk-indexes all course documents into the courses index
+  Connects to localhost:9200
+  Reads sample-courses.json
+  Bulk-indexes all course documents into the courses index
 
 API Usage
   Search Courses
